@@ -136,5 +136,6 @@
     <orderEntry type="library" name="Gradle: com.android.support:design:26.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment:26.0.2@aar" level="project" />
     <orderEntry type="module" module-name="boommenu" />
+    <orderEntry type="module" module-name="boommenu" />
   </component>
 </module>

@@ -14,7 +14,7 @@ import com.nightonke.boommenu.Util;
  * For more projects: https://github.com/Nightonke
  */
 
-final class Dot extends BoomPiece {
+public  final class Dot extends BoomPiece {
 
     public Dot(Context context) {
         super(context);

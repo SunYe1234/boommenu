@@ -185,6 +185,20 @@
     <!--app:bmb_showDelay="0"-->
     <!--app:bmb_hideDelay="0"-->
     <!--/>-->
+    <!--<MarqueeTextView-->
+        <!--android:id="@+id/textview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:ellipsize="marquee"-->
+        <!--android:focusable="true"-->
+        <!--android:focusableInTouchMode="true"-->
+
+        <!--android:marqueeRepeatLimit="marquee_forever"-->
+        <!--android:scrollHorizontally="true"-->
+        <!--android:singleLine="true"-->
+        <!--android:text="@string/buy_plan_top_tip"-->
+        <!--android:textColor="@color/black_secondary"-->
+        <!--android:textSize="11sp" />-->
 
     <GridLayout
         android:id="@+id/show_menu_button"

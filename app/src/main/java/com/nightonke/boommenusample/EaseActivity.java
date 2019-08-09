@@ -1,6 +1,7 @@
 package com.nightonke.boommenusample;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -8,6 +9,8 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
@@ -23,16 +26,21 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.nightonke.boommenu.BoomButtons.BoomButton;
 import com.nightonke.boommenu.BoomButtons.BoomButtonBuilder;
 import com.nightonke.boommenu.BoomButtons.ButtonPlaceEnum;
 import com.nightonke.boommenu.BoomMenuButton;
 import com.nightonke.boommenu.ButtonEnum;
+import com.nightonke.boommenu.Piece.BoomPiece;
+import com.nightonke.boommenu.Piece.Dot;
 import com.nightonke.boommenu.Piece.PiecePlaceEnum;
+import com.nightonke.boommenu.Piece.PiecePlaceManager;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static android.text.TextUtils.TruncateAt.END;
 import static com.nightonke.boommenu.Animation.BoomEnum.PARABOLA_2;
 import static com.nightonke.boommenu.Animation.EaseEnum.EaseOutSine;
 import static com.nightonke.boommenu.Animation.OrderEnum.DEFAULT;
@@ -48,6 +56,7 @@ public class EaseActivity extends AppCompatActivity {
     private ArrayList<String> namesOfFiles;
     private File[] files;
     private GridLayout.LayoutParams gl;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,7 +135,57 @@ public class EaseActivity extends AppCompatActivity {
         TableRow tableRow=null;
         for( File file : files )
         {
-            if (!file.isDirectory()) continue;
+            if (!file.isDirectory())
+            {
+//                BoomMenuButton menuButton=new BoomMenuButton(this);
+//                BoomButtonBuilder buttonBuilder=BuilderManager.getSimpleCircleButtonBuilder();
+//                Dot boomPiece=(Dot)PiecePlaceManager.createPiece(menuButton,buttonBuilder);
+//                relativeLayout.addView(boomPiece);
+                String name=file.getName();
+                Button button=new Button(this);
+                button.setBackgroundColor(Color.TRANSPARENT);
+                Drawable icon=getResources().getDrawable(R.drawable.ic_file_blank_white_24dp);
+                icon.setBounds(0, 0, icon.getIntrinsicWidth()*2, icon.getIntrinsicHeight()*2);
+                button.setCompoundDrawables(button.getCompoundDrawables()[0],icon,button.getCompoundDrawables()[2],button.getCompoundDrawables()[0]);
+
+                button.setPadding(0,0,0,0);
+                button.setGravity(Gravity.CENTER_HORIZONTAL);
+//                MarqueeTextView textView=(MarqueeTextView)findViewById(R.id.textview);
+//                textView.setText(name);
+                TextView textView=new TextView(this);
+                textView.setText(name);
+                textView.setGravity(Gravity.CENTER_HORIZONTAL);
+                textView.setPadding(20,0,20,0);
+                textView.setWidth(250);
+                if (file.getName().length()>8)
+                {
+//                    textView .setEllipsize(TextUtils.TruncateAt.MARQUEE);
+//                    textView .setSingleLine(true);
+//                    textView .setMarqueeRepeatLimit(6);
+////                    textView.setMarqueeRepeatLimit(-1);
+//                    textView.setHorizontallyScrolling(true);
+//                    textView.setFocusable(true);
+                    textView.setSingleLine(false);
+
+//                    textView.setFocusableInTouchMode(true);
+//                    textView.setFreezesText(true);
+                }
+//                textView.setFocusableInTouchMode(true);
+//                textView.setFreezesText(true);
+
+                LinearLayout linearLayout=new LinearLayout(this);
+                linearLayout.addView(button);
+                linearLayout.addView(textView);
+                linearLayout.setGravity(Gravity.CENTER_HORIZONTAL);
+                linearLayout.setOrientation(LinearLayout.VERTICAL);
+
+
+
+                relativeLayout.addView(linearLayout);
+
+
+                continue;
+            }
 //            //if it's a new row, create a TableRow
 //            if (indexInRow==0)  tableRow=new TableRow(this);
 //            //create the button corresponding with name btnContent
