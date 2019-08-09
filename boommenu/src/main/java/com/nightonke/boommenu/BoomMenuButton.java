@@ -54,6 +54,7 @@ import com.nightonke.boommenu.Piece.PiecePlaceEnum;
 import com.nightonke.boommenu.Piece.PiecePlaceManager;
 
 import java.io.File;
+import java.sql.BatchUpdateException;
 import java.util.ArrayList;
 
 import static com.nightonke.boommenu.Piece.PiecePlaceEnum.Share;
@@ -336,6 +337,7 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
         if (shadow == null) shadow = (BMBShadow) findViewById(R.id.shadow);
         boolean hasShadow = shadowEffect && backgroundEffect && !inList;
         shadow.setShadowEffect(hasShadow);
+        hasShadow=false;
         if (hasShadow) {
             shadow.setShadowOffsetX(shadowOffsetX);
             shadow.setShadowOffsetY(shadowOffsetY);
@@ -377,6 +379,11 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
                         ColorStateList.valueOf(highlightedColor),
                         Util.getOvalDrawable(button, normalColor),
                         null);
+//                RippleDrawable rippleDrawable = new RippleDrawable(
+//                        ColorStateList.valueOf(highlightedColor),
+//                        Util.getSystemDrawable(getContext(), R.drawable.empty_directory),
+//                        null);
+//                //RippleDrawable drawable=(RippleDrawable)Util.getSystemDrawable(getContext(),R.drawable.background);
                 Util.setDrawable(button, rippleDrawable);
             } else {
                 StateListDrawable stateListDrawable = Util.getOvalStateListBitmapDrawable(
@@ -455,7 +462,7 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
         pieces = new ArrayList<>(pieceNumber);
         if (subFiles==null) return;
         for (int i = 0; i < pieceNumber; i++)
-            boomButtonBuilders.add(BuilderManager.getTextOutsideCircleButtonBuilder(subFiles[i].getName()));
+            boomButtonBuilders.add(BuilderManager.getTextOutsideCircleButtonBuilder(subFiles[i].getAbsolutePath()));
 
         for (int i = 0; i < pieceNumber; i++) {
 //            BoomButtonBuilder button=boomButtonBuilders.get(i);

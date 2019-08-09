@@ -1,0 +1,323 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+MERGED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/1827ca9c2ba57b4c5d74f52e91e9463a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+	package
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:1-94:12
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:6:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:8:22-77
+application
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:10:5-92:19
+MERGED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/1827ca9c2ba57b4c5d74f52e91e9463a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/1827ca9c2ba57b4c5d74f52e91e9463a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.nightonke.boommenusample.MainActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.nightonke.boommenusample.SimpleCircleButtonActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:23:9-25:52
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:24:13-55
+activity#com.nightonke.boommenusample.TextInsideCircleButtonActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:26:9-28:50
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:28:13-47
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:27:13-59
+activity#com.nightonke.boommenusample.TextOutsideCircleButtonActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:29:9-31:51
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:30:13-60
+activity#com.nightonke.boommenusample.HamButtonActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:32:9-34:42
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:34:13-39
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:33:13-46
+activity#com.nightonke.boommenusample.SquareAndPieceCornerRadiusActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:35:9-37:64
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:36:13-63
+activity#com.nightonke.boommenusample.BoomExampleActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:38:9-40:36
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:40:13-33
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:39:13-48
+activity#com.nightonke.boommenusample.ButtonPlaceAlignmentActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:41:9-43:54
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:43:13-51
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:42:13-57
+activity#com.nightonke.boommenusample.OrderExampleActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:44:9-46:37
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:46:13-34
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:45:13-49
+activity#com.nightonke.boommenusample.ActionBarActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:47:9-49:41
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:49:13-38
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:48:13-46
+activity#com.nightonke.boommenusample.ToolBarActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:50:9-52:51
+	android:theme
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:51:13-44
+activity#com.nightonke.boommenusample.DraggableActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:53:9-55:41
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:55:13-38
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:54:13-46
+activity#com.nightonke.boommenusample.EaseActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:56:9-58:36
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:58:13-33
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:57:13-41
+activity#com.nightonke.boommenusample.ListenerActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:59:9-61:40
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:60:13-45
+activity#com.nightonke.boommenusample.ControlActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:62:9-64:39
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:64:13-36
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:63:13-44
+activity#com.nightonke.boommenusample.ShareActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:65:9-67:37
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:67:13-34
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:66:13-42
+activity#com.nightonke.boommenusample.ListViewActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:68:9-70:36
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:70:13-33
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:69:13-45
+activity#com.nightonke.boommenusample.RecyclerViewActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:71:9-73:45
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:73:13-42
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:72:13-49
+activity#com.nightonke.boommenusample.FragmentActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:74:9-76:40
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:75:13-45
+activity#com.nightonke.boommenusample.ChangeBoomButtonActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:77:9-79:50
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:79:13-47
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:78:13-53
+activity#com.nightonke.boommenusample.ThreeDAnimationActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:80:9-82:44
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:82:13-41
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:81:13-52
+activity#com.nightonke.boommenusample.CustomPositionActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:83:9-85:47
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:85:13-44
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:84:13-51
+activity#com.nightonke.boommenusample.FadeViewsActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:86:9-88:42
+	android:label
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:88:13-39
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:87:13-46
+activity#com.nightonke.boommenusample.OrientationActivity
+ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:89:9-91:77
+	android:configChanges
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:91:13-74
+	android:name
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml:90:13-48
+uses-sdk
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+MERGED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/1827ca9c2ba57b4c5d74f52e91e9463a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/1827ca9c2ba57b4c5d74f52e91e9463a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yezi/Downloads/BoomMenu-master/app/src/main/AndroidManifest.xml
+activity#com.nightonke.boommenu.EaseActivity
+ADDED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-16:36
+	android:label
+		ADDED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-33
+	android:name
+		ADDED from [:boommenu] /Users/yezi/Downloads/BoomMenu-master/boommenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-63
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/95f40846687bf7496c48b7c2d453464d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/3e201d4ea590bbb27dff1a96f56b45f7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/f5144895b3a033158dcb020bb6fb8cdf/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/cb29e247ecaa8f20efec847ca5e5b6d9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/e3c1bdf459d3aa229eb96d5dc99c67a8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/2ca6e039430713da67d81602865bdc77/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/50e706abd349ff108d6fa4fd5cb752ad/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/4b22607e3c5cd3cff388393f992b7d02/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/dad4dac92dc9f60938a2dbcfbc43aff3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/fe0966c6ac171f8435f80f526f5d50ed/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/8f9b842e2e0157af5dfb5d6e6571c5cb/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.2] /Users/yezi/.gradle/caches/transforms-2/files-2.1/5a0ae8bdadc1d42cc9382c932f34a9f1/AndroidManifest.xml:27:13-51

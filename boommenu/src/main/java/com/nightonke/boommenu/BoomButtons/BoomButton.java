@@ -181,6 +181,8 @@ public abstract class BoomButton extends FrameLayout {
         imagePadding = builder.imagePadding;
 
         normalText = builder.normalText;
+
+
         normalTextRes = builder.normalTextRes;
         highlightedText = builder.highlightedText;
         highlightedTextRes = builder.highlightedTextRes;
@@ -311,7 +313,7 @@ public abstract class BoomButton extends FrameLayout {
         updateTextPadding();
         if (typeface != null) text.setTypeface(typeface);
         text.setMaxLines(maxLines);
-        text.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
+//        text.setTextSize(TypedValue.COMPLEX_UNIT_SP, textSize);
         text.setGravity(textGravity);
         text.setEllipsize(ellipsize);
         if (ellipsize == TextUtils.TruncateAt.MARQUEE) {
@@ -639,7 +641,10 @@ public abstract class BoomButton extends FrameLayout {
             Util.setTextColor(text, unableTextColorRes, unableTextColor);
         } else {
             //Util.setText(text, normalTextRes, normalText);
-            Util.setText(text, 0, normalText);
+            String[] path=normalText.split("/");
+            String name=path[path.length-1];
+            //Util.setText(text, 0, normalText);
+            Util.setText(text,0,name);
             Util.setTextColor(text, normalTextColorRes, normalTextColor);
         }
     }

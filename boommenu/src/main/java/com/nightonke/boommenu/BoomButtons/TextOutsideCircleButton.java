@@ -1,13 +1,21 @@
 package com.nightonke.boommenu.BoomButtons;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.PointF;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.Toast;
 
 import com.nightonke.boommenu.ButtonEnum;
+import com.nightonke.boommenu.EaseActivity;
 import com.nightonke.boommenu.R;
+import com.nightonke.boommenu.Util;
 
+import java.io.File;
 import java.util.ArrayList;
 
 /**
@@ -19,6 +27,8 @@ import java.util.ArrayList;
 
 @SuppressWarnings("unused")
 public class TextOutsideCircleButton extends BoomButton {
+    private boolean touchable = true;
+
 
     private TextOutsideCircleButton(Builder builder, Context context) {
         super(context);
@@ -37,6 +47,67 @@ public class TextOutsideCircleButton extends BoomButton {
         initText(layout);
         initImage();
         centerPoint = new PointF(trueRadius, trueRadius);
+    }
+
+
+    @SuppressLint("NewApi")
+    protected void initCircleButton() {
+        button = (FrameLayout) findViewById(R.id.button);
+        LayoutParams params = (LayoutParams) button.getLayoutParams();
+        params.width = buttonRadius * 2;
+        params.height = buttonRadius * 2;
+        button.setLayoutParams(params);
+        button.setEnabled(!unable);
+        button.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!touchable) return;
+                if (listener != null) listener.onButtonClick(index, TextOutsideCircleButton.this);
+                if (onBMClickListener != null) onBMClickListener.onBoomButtonClick(index);
+            }
+        });
+
+        initCircleButtonDrawable();
+
+        button.setOnTouchListener(new OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (!touchable) return false;
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        if (Util.pointInView(new PointF(event.getX(), event.getY()), button)) {
+                            toHighlighted();
+                            ableToHighlight = true;
+                            File file=new File(normalText);
+                            if (file.isDirectory()) {
+                                if (file.listFiles()==null||file.listFiles().length==0) {
+                                    Toast.makeText(getContext(), "no documents inside", Toast.LENGTH_SHORT).show();
+                                    return false;
+                                }
+                                Intent intent = new Intent(getContext(), EaseActivity.class);
+                                intent.putExtra("path", normalText);
+                                getContext().startActivity(intent);
+                            }
+
+                        }
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        if (Util.pointInView(new PointF(event.getX(), event.getY()), button)) {
+                            toHighlighted();
+                        } else {
+                            ableToHighlight = false;
+                            toNormal();
+                        }
+                        break;
+                    case MotionEvent.ACTION_UP:
+                    case MotionEvent.ACTION_CANCEL:
+                        ableToHighlight = false;
+                        toNormal();
+                        break;
+                }
+                return false;
+            }
+        });
     }
 
     private void initAttrs(Builder builder) {

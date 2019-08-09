@@ -87,10 +87,11 @@ public class BuilderManager {
                 .normalImageRes(getImageResource())
                 .normalTextRes(R.string.text_outside_circle_button_text_normal);
     }
-    static TextOutsideCircleButton.Builder getTextOutsideCircleButtonBuilder(String name) {
+    static TextOutsideCircleButton.Builder getTextOutsideCircleButtonBuilder(String path) {
+
         return new TextOutsideCircleButton.Builder()
                 .normalImageRes(getImageResource())
-                .normalText(name);
+                .normalText(path);
         //.normalTextRes(R.string.text_outside_circle_button_text_normal);
     }
 

@@ -38,7 +38,9 @@ public class BuilderManager {
             R.drawable.pig,
             R.drawable.rat,
             R.drawable.snake,
-            R.drawable.squirrel
+            R.drawable.squirrel,
+
+            R.drawable.empty_directory
     };
 
     private static int imageResourceIndex = 0;

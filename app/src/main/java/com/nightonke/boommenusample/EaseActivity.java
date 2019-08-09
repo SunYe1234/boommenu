@@ -54,7 +54,9 @@ public class EaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ease);
         View view=findViewById(R.id.activity_ease);
-        view.getBackground().setAlpha(200);
+        view.getBackground().setAlpha(130);
+        if (getIntent().getStringExtra("path")!=null)
+            filesPath=getIntent().getStringExtra("path");
 
         relativeLayout=(GridLayout) findViewById(R.id.show_menu_button);
 
