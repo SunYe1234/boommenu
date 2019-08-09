@@ -47,6 +47,7 @@ public enum PiecePlaceEnum {
 
     DOT_10(41),
     DOT_11(42),
+    DOT_12(43),
 
     HAM_1  (35),
     HAM_2  (36),
@@ -124,6 +125,9 @@ public enum PiecePlaceEnum {
             case DOT_9_1:
             case DOT_9_2:
             case DOT_9_3: return 9;
+            case DOT_10: return 10;
+            case DOT_11: return 11;
+            case DOT_12: return 12;
             case Unknown: return 0;
             default: return -1;
         }

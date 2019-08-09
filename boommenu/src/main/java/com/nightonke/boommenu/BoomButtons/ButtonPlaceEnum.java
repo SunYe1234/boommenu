@@ -51,6 +51,10 @@ public enum ButtonPlaceEnum {
     HAM_5 (39),
     HAM_6 (40),
 
+    SC_10(41),
+    SC_11(42),
+    SC_12(43),
+
     Horizontal(Integer.MAX_VALUE - 2),
     Vertical(Integer.MAX_VALUE - 1),
 
@@ -122,6 +126,11 @@ public enum ButtonPlaceEnum {
             case SC_9_1:
             case SC_9_2:
             case SC_9_3: return 9;
+
+            case SC_10:return 10;
+            case SC_11:return 11;
+            case SC_12:return 12;
+
             case Unknown: return 0;
             default: return -1;
         }

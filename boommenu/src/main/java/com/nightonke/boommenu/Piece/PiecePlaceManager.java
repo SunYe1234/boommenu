@@ -339,6 +339,50 @@ public class PiecePlaceManager {
                 pos.add(point(+a, +a));
                 pos.add(point(0, +a_2_0));
                 break;
+            case DOT_10:
+
+                pos.add(point(0, -a_2_0 - c_2_0));
+                pos.add(point(-hm_0_5 - r, -a - c));
+                pos.add(point(+hm_0_5 + r, -a - c));
+                pos.add(point(-b_2_0-r, 0));
+                //ps.add(point(0, 0));
+                pos.add(point(+hm_0_5 + r,0));
+                pos.add(point(-hm_0_5 - r,0));
+                pos.add(point(+b_2_0+r, 0));
+                pos.add(point(-hm_0_5 - r, +a + c));
+                pos.add(point(+hm_0_5 + r, +a + c));
+                pos.add(point(0, +a_2_0 + c_2_0));
+                break;
+            case DOT_11:
+                pos.add(point(-hm - r_2_0, -vm - r_2_0));
+                pos.add(point(0, -vm - r_2_0));
+                pos.add(point(+hm + r_2_0, -vm - r_2_0));
+                pos.add(point(-hm - r_2_0, 0));
+                pos.add(point(0, 0));
+                pos.add(point(+hm + r_2_0, 0));
+                pos.add(point(-hm - r_2_0, +vm + r_2_0));
+                pos.add(point(0, +vm + r_2_0));
+                pos.add(point(+hm + r_2_0, +vm + r_2_0));
+
+                pos.add(point(-hm - r_2_0, +vm*2 +r*4));
+                pos.add(point(0, vm*2 + r*4));
+                break;
+            case DOT_12:
+                pos.add(point(-hm - r_2_0, -vm - r_2_0));
+                pos.add(point(0, -vm - r_2_0));
+                pos.add(point(+hm + r_2_0, -vm - r_2_0));
+                pos.add(point(-hm - r_2_0, 0));
+                pos.add(point(0, 0));
+                pos.add(point(+hm + r_2_0, 0));
+                pos.add(point(-hm - r_2_0, +vm + r_2_0));
+                pos.add(point(0, +vm + r_2_0));
+                pos.add(point(+hm + r_2_0, +vm + r_2_0));
+
+                pos.add(point(-hm - r_2_0, +vm*2 +r*4));
+                pos.add(point(0, vm*2 + r*4));
+                pos.add(point(hm + r_2_0, +vm*2 +r*4));
+                break;
+
             case Custom:
                 for (PointF po : bmb.getCustomPiecePlacePositions()) pos.add(point(po.x, po.y));
                 break;

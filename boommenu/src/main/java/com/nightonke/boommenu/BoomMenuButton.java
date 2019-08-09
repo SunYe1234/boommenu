@@ -1861,10 +1861,10 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
     }
     public void setPiecePlaceEnum(int n) {
         //this.piecePlaceEnum = piecePlaceEnum;
-        if (n>9) {
-            Log.v("error!!!!", "超过9个子文件啦！！");
-            return;
-        }
+//        if (n>9) {
+//            Log.v("error!!!!", "超过9个子文件啦！！");
+//            return;
+//        }
         switch (n)
         {
             case 1:
@@ -1893,6 +1893,15 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
                 return;
             case 9:
                 this.piecePlaceEnum=PiecePlaceEnum.DOT_9_2;
+                return;
+            case 10:
+                this.piecePlaceEnum=PiecePlaceEnum.DOT_10;
+                return;
+            case 11:
+                this.piecePlaceEnum=PiecePlaceEnum.DOT_11;
+                return;
+            case 12:
+                this.piecePlaceEnum=PiecePlaceEnum.DOT_12;
                 return;
 
         }
@@ -2248,10 +2257,10 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
         needToCalculateStartPositions = true;
     }
     public void setButtonPlaceEnum(int n) {
-        if (n>9) {
-            Log.v("error!!!!", "超过9个子文件啦！！");
-            return;
-        }
+//        if (n>9) {
+//            Log.v("error!!!!", "超过9个子文件啦！！");
+//            return;
+//        }
         switch (n)
         {
             case 1:
@@ -2281,6 +2290,14 @@ public class BoomMenuButton extends FrameLayout implements InnerOnBoomButtonClic
             case 9:
                 this.buttonPlaceEnum=ButtonPlaceEnum.SC_9_3;
                 return;
+            case 10:
+                this.buttonPlaceEnum=ButtonPlaceEnum.SC_10;
+                return;
+            case 11:
+                this.buttonPlaceEnum=ButtonPlaceEnum.SC_11;
+                return;
+            case 12:
+                this.buttonPlaceEnum=ButtonPlaceEnum.SC_12;
 
         }
         clearPieces();
