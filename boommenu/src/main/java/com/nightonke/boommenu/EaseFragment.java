@@ -85,6 +85,11 @@ public class EaseFragment extends Fragment {
         this.filesPath=path;
     }
 
+    public String getFilesPath()
+    {
+        return filesPath;
+    }
+
     private BoomMenuButton initBmb( BoomMenuButton bmb ) {
 //        BoomMenuButton bmb = (BoomMenuButton) findViewById(res);
         assert bmb != null;
