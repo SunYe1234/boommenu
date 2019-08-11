@@ -10,6 +10,7 @@ import com.nightonke.boommenu.BoomButtons.TextInsideCircleButton;
 import com.nightonke.boommenu.BoomButtons.TextOutsideCircleButton;
 import com.nightonke.boommenu.Piece.PiecePlaceEnum;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,14 +38,22 @@ public class BuilderManager {
             R.drawable.pig,
             R.drawable.rat,
             R.drawable.snake,
-            R.drawable.squirrel
+            R.drawable.squirrel,
+
+            R.drawable.empty_directory,
+            R.drawable.ic_file_blank_white_24dp
     };
 
     private static int imageResourceIndex = 0;
 
     static int getImageResource() {
-        if (imageResourceIndex >= imageResources.length) imageResourceIndex = 0;
-        return imageResources[imageResourceIndex++];
+//        if (imageResourceIndex >= imageResources.length) imageResourceIndex = 0;
+//        return imageResources[imageResourceIndex++];
+        return imageResources[imageResources.length-2];
+    }
+    static int getFileImageResource()
+    {
+        return imageResources[imageResources.length-1];
     }
 
     static SimpleCircleButton.Builder getSimpleCircleButtonBuilder() {
@@ -89,8 +98,13 @@ public class BuilderManager {
     }
     static TextOutsideCircleButton.Builder getTextOutsideCircleButtonBuilder(String path) {
 
+        File file=new File(path);
+        if (file.isDirectory())
         return new TextOutsideCircleButton.Builder()
                 .normalImageRes(getImageResource())
+                .normalText(path);
+        else return new TextOutsideCircleButton.Builder()
+                .normalImageRes(getFileImageResource())
                 .normalText(path);
         //.normalTextRes(R.string.text_outside_circle_button_text_normal);
     }

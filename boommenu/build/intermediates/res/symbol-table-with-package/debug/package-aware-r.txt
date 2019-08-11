@@ -687,6 +687,7 @@ drawable elephant
 drawable empty_directory
 drawable horse
 drawable ic_file_blank_white_24dp
+drawable ic_folder_white_24dp
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low

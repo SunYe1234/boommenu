@@ -46,8 +46,9 @@ public class BuilderManager {
     private static int imageResourceIndex = 0;
 
     static int getImageResource() {
-        if (imageResourceIndex >= imageResources.length) imageResourceIndex = 0;
-        return imageResources[imageResourceIndex++];
+//        if (imageResourceIndex >= imageResources.length) imageResourceIndex = 0;
+//        return imageResources[imageResourceIndex++];
+        return imageResources[imageResources.length-1];
     }
 
     static SimpleCircleButton.Builder getSimpleCircleButtonBuilder() {
