@@ -57,6 +57,9 @@
             android:name=".EaseActivity"
             android:label="Ease" />
         <activity
+            android:name=".EaseActivityWithFragment"
+            android:label="EaseWithFragment" />
+        <activity
             android:name=".ListenerActivity"
             android:label="Listener" />
         <activity

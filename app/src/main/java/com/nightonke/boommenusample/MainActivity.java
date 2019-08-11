@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(DraggableActivity.class);
                 break;
             case R.id.ease_example:
-                startActivity(EaseActivity.class);
+                startActivity(com.nightonke.boommenu.EaseActivityWithFragment.class);
                 break;
             case R.id.listener_example:
                 startActivity(ListenerActivity.class);

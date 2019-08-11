@@ -1088,6 +1088,7 @@ id fill_vertical
 id fixed
 id forever
 id fragment_example
+id frameLayout
 id ghost_view
 id ham
 id ham_button_example
@@ -1381,6 +1382,7 @@ layout activity_control
 layout activity_custom_position
 layout activity_draggable
 layout activity_ease
+layout activity_ease_fragment
 layout activity_fade_views
 layout activity_fragment
 layout activity_ham_button

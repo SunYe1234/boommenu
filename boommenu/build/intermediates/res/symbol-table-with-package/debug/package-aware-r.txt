@@ -802,6 +802,7 @@ id buttonPlace_vertical
 id cancel_action
 id checkbox
 id chronometer
+id container
 id contentPanel
 id custom
 id customPanel
@@ -812,6 +813,7 @@ id end_padder
 id expand_activities_button
 id expanded_menu
 id forever
+id frameLayout
 id ham
 id home
 id icon
@@ -1008,6 +1010,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_ease
+layout activity_ease_fragment
 layout bmb
 layout bmb_ham_button
 layout bmb_simple_circle_button

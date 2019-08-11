@@ -1,9 +1,11 @@
 package com.nightonke.boommenu.BoomButtons;
 
 import android.annotation.SuppressLint;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.PointF;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -12,6 +14,8 @@ import android.widget.Toast;
 
 import com.nightonke.boommenu.ButtonEnum;
 import com.nightonke.boommenu.EaseActivity;
+import com.nightonke.boommenu.EaseActivityWithFragment;
+import com.nightonke.boommenu.EaseFragment;
 import com.nightonke.boommenu.R;
 import com.nightonke.boommenu.Util;
 
@@ -84,9 +88,18 @@ public class TextOutsideCircleButton extends BoomButton {
                                     Toast.makeText(getContext(), "no documents inside", Toast.LENGTH_SHORT).show();
                                     return false;
                                 }
-                                Intent intent = new Intent(getContext(), EaseActivity.class);
-                                intent.putExtra("path", normalText);
-                                getContext().startActivity(intent);
+//                                Intent intent = new Intent(getContext(), EaseActivityWithFragment.class);
+//                                intent.putExtra("path", normalText);
+//                                getContext().startActivity(intent);
+                                Context context=getContext();
+                                if (context instanceof EaseActivityWithFragment)
+                                {
+                                    EaseFragment easeFragment=new EaseFragment();
+                                    easeFragment.setFilesPath(normalText);
+                                    EaseActivityWithFragment eActWithFragment=(EaseActivityWithFragment) context;
+                                eActWithFragment.getFragmentManager().beginTransaction().replace(R.id.frameLayout,easeFragment).commit();
+                                }
+
                             }
 
                         }

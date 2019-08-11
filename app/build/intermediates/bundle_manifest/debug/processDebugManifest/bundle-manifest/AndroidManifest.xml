@@ -65,6 +65,9 @@
             android:name="com.nightonke.boommenusample.EaseActivity"
             android:label="Ease" />
         <activity
+            android:name="com.nightonke.boommenusample.EaseActivityWithFragment"
+            android:label="EaseWithFragment" />
+        <activity
             android:name="com.nightonke.boommenusample.ListenerActivity"
             android:label="Listener" />
         <activity
@@ -99,6 +102,9 @@
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
             android:name="com.nightonke.boommenu.EaseActivity"
+            android:label="Ease" />
+        <activity
+            android:name="com.nightonke.boommenu.EaseActivityWithFragment"
             android:label="Ease" />
 
         <meta-data

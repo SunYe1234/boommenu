@@ -8,6 +8,9 @@
         <activity
             android:name=".EaseActivity"
             android:label="Ease" />
+        <activity
+            android:name=".EaseActivityWithFragment"
+            android:label="Ease" />
 
     </application>
 
