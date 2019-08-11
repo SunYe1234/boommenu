@@ -97,6 +97,7 @@ public class TextOutsideCircleButton extends BoomButton {
                                     EaseFragment easeFragment=new EaseFragment();
                                     easeFragment.setFilesPath(normalText);
                                     EaseActivityWithFragment eActWithFragment=(EaseActivityWithFragment) context;
+                                    eActWithFragment.saveFormerFragment(eActWithFragment.getCurrentFragment());
                                 eActWithFragment.getFragmentManager().beginTransaction().replace(R.id.frameLayout,easeFragment).commit();
                                 }
 
